@@ -1,0 +1,28 @@
+project:
+  output-dir: ./_site/vn
+  
+website:
+  title: "Yvesypher"
+  description: "Thống kê, Dự báo, Kinh tế lượng"
+  search:
+    type: overlay
+  navbar:
+    background: "light"
+    left:
+      - text: "Blog"
+        href: ../vn/blog.qmd
+    pinned: true
+    right:
+      - icon: github
+        href: https://github.com/yvesypher
+      
+      - icon: linkedin
+        href: https://www.linkedin.com/in/minh-nguyen-1203/
+        
+      - text: "English"
+        href: ..
+
+format:
+  html:
+    theme: flatly
+    css: styles.css

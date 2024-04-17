@@ -1,0 +1,40 @@
+---
+title: "Cash - My Markov process bestie"
+---
+
+::: {.content-visible when-profile="en"}
+Meet Cash - my partner in crime through the ups and downs of the academic roller coaster. He is Malaysian Chinese, majoring in Econometrics and working on Bayesian inference during his Honours year. I first met him on week 3 of semester 1, 2023 when we did 2 classes together. Let's just say our first impressions weren't exactly fireworks, but hey, they say the best friendships start with a bit of friction, right? Honestly, we did not have a good impression of each other for some silly and funny reasons. Our friendship soon developed over shared study sessions, epic hangouts, and maybe a few too many drinks since winter break.
+
+Cash admits that he is not good at memorizing. That is why he really put lots of effort into understanding knowledge rather than learning it by heart. He often forgets what we did in the past, and where we went, ... I often call him a **"Markov process"**. But what's with the comparison, you ask? Well, buckle up, because we're diving into some math.
+
+The name "Markov" sounds like it belongs to some mathematical luminary, doesn't it? And it does! It's named after Andrey Andreyevich Markov, a renowned Russian mathematician known for his groundbreaking work in stochastic processes. And yes, that's just a fancy way of saying "random stuff happening over time."
+
+<!-- Think of it like this - you wouldn't jump into the deep end of the pool if you haven't even dipped your toes in the kiddie pool, right? Well, the same applies here. Let's lay down the groundwork by understanding the very basic concepts. It's like constructing a sturdy building; you wouldn't want a skyscraper on shaky ground, would you? -->
+
+To understand the word "stochastic" better, we should have a look at the word "deterministic". It is often easier to learn something by comparison. Deterministic basically means things happen as they're supposed to, like following a recipe to bake a cake, and a delicious cake is guaranteed. Take compound interest, for example - it's like a foolproof recipe for growing your money. You pop in the initial investment, add a pinch of interest rate, stir in some time, and voila! You've got yourself the future value of your investment. It's like a fortune cookie that only tells one fortune - reliable, but not really thrilling.
+
+<!-- According to Cambridge dictionary, "deterministic" means believing that everything that happens must happen as it does and could not have happened any other way, or relating to this belief. Meanwhile, "stochastic" means randomly determined; having a random probability distribution or pattern that may be analyzed statistically but may not be predicted precisely. -->
+
+<!-- Let's think a deterministic model as a cooking recipe, you just need to follow all the steps properly and a delicious dish is guaranteed. Take compound interest, for example. It's the OG of financial models. You pop in the initial investment, add a pinch of interest rate, stir in some time, and bam! You've got yourself the future value of your investment. But here's the kicker: it assumes a constant interest rate and does not account for any randomness or uncertainty in the interest rate. No surprises, no drama, just plain simple math. It's like a fortune cookie that only tells one fortune - reliable, but kinda dull. -->
+
+Meanwhile, "stochastic" means randomly determined, thus stochastic models are the wild ride of the math world. No single rate, just a roller coaster of randomness. It's like forecasting the weather in Melbourne - you can not expect hail that makes the whole Clayton blackout on a 38-degree day. I bet all the finance bros will once hear about Geometric Brownian Motion (GBM) - a popular example of a stochastic model that describes the random movement of asset prices over time.
+
+To be fair, both Cash and I are really stochastic. We always fly by the seat of our pants and enjoy the last-minute things, never with a proper plan in sight. We really played academic chicken with our Honours theses, and poor our supervisors, they had to play along with us until the last minute as well. We both submitted our papers to IAAE 2024 conference right on the deadline, and by some stroke of luck, we both got accepted to present (🕺 Cue the victory dance 💃). Even on our recent trip, we really lived on the edge by booking our Airbnb the night before. In the end, are we stochastic or risk takers or maybe both? 🤔
+
+<!-- We are really impulsive, never have a proper plan, always do the last minute things. We played with our Honours thesis until the last due hour. We both submitted our papers to IAAE 2024 conference on the last due date and luckily we both got accepted to present (flexing kk). Even in our trip, we always book our staying place the night before.  -->
+
+Enough with the detours, let's get back to the math. A stochastic process is a collection of random variables indexed by time. Markov process is an example of a stochastic process with the Markov property. This property can be simply explained as the future development of the process can be predicted from its present state alone, without any reference to its past history.
+
+<!-- Speaking of Markov property, a major simplification occurs if the future development of a process can be predicted from its present state alone, without any reference to its past history. In the example of discrete state space, a stochastic process has the Markov property if: -->
+
+<!-- $$P[X_t = a | X_{s_1} = x_1 , X_{s_2} = x_2 , ..., X_{s_n} = x_n,  X_s = x ]=P[X_t = a | X_s = x]$$ -->
+
+The Markov property, also known as the memoryless property, is a fascinating concept. Just like Cash, he really forgets what we discussed a few days ago. Recently, I owed Cash and Nicole some money during our trip in Malaysia. I told him I'd transfer him the total, and he could transfer a portion to Nicole, saving me from making two separate transfers. But when Cash received the money, he was baffled by the extra amount. Well, he is truly a Markov bae!
+:::
+
+::: {.content-visible when-profile="vn"}
+
+Giới thiệu với mọi người Cash - bạn vào sinh ra tử năm Honours của mình. Cash là người Malaysia gốc Trung, chuyên ngành Kinh tế lượng và yêu thích nghiên cứu suy luận Bayes.
+
+# Markov Chain
+:::

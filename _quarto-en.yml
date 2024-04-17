@@ -1,0 +1,30 @@
+project:
+  output-dir: ./_site
+  
+website:
+  title: "Yvesypher"
+  description: "visualization, statistics, forecasting"
+  search:
+    type: overlay
+  navbar:
+    background: "light"
+    left:
+      - text: "Blog"
+        href: ./blog.qmd
+    pinned: true
+    right:
+      - icon: github
+        href: https://github.com/yvesypher
+      
+      - icon: linkedin
+        href: https://www.linkedin.com/in/minh-nguyen-1203/
+        
+      - text: "Tiếng Việt"
+        href: ./vn
+
+format:
+  html:
+    theme: flatly
+    css: styles.css
+
+lang: en

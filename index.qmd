@@ -1,11 +1,25 @@
 ---
-title: "yu-web"
+title: Welcome, first time with Yvesypher ?
+about: 
+  template: jolla
+  image: profile.jpg
+  image-width: 20em
+  links:
+    - icon: github
+      text: Github
+      href: https://github.com/yvesypher
+      
+    - icon: linkedin
+      text: Linkedin
+      href: https://www.linkedin.com/in/minh-nguyen-1203/
 ---
 
-This is a Quarto website.
+::: justifyabt
+::: {.content-visible when-profile="en"}
+🤓 Hi, I am Minh Nguyễn - a visualization and forecasting lover from Vietnam 🥰 My nickname is Yvesypher = "Yves" (my English name) + "ypher" (from the word "decipher") 😶 This shows my hope to decipher and understand myself better day by day 😁 I have completed my Bachelor degree in Actuarial Science and Honours degree in Business Analytics at Monash University 🧐 My research interests lie in hierarchical forecasting, temporal data visualization, and story telling 🤩
+:::
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
-
-```{r}
-1 + 1
-```
+::: {.content-visible when-profile="vn"}
+🤓Blog của Minh 🥰
+:::
+:::
